@@ -117,7 +117,7 @@ section {
   width: 100%;
   padding: 2em 0;
   color: var(--co-linear-gradient);
-  font-size: var(--fs-400);
+  font-size: var(--fs-200);
 }
 
 .left-side img {
@@ -141,7 +141,7 @@ section {
   display: none;
 }
 
-@media (max-width: 1135px) {
+@media (max-width: 970px) {
   #top-nav-bar a {
     display: none;
   }
@@ -329,7 +329,7 @@ section {
   max-height: 100%;
   flex: 0 1 100%;
   min-width: 23em;
-  font-size: var(--fs-200);
+  font-size: var(--fs-100);
 }
 
 @media (max-width: 445px) {
@@ -848,7 +848,7 @@ h1 ~ i {
 }
 
 .money {
-  font-size: 2.5em;
+  font-size: var(--fs-400);
   font-weight: 600;
   line-height: 1em;
 }
