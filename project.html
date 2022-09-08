@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS PROJECT</title>
+    <link rel="stylesheet" href="project.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1925230fa1.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <!-- ====== TOP-NAV-BAR ====== -->
+    <nav id="top-nav-bar">
+      <div class="left-side">
+        <img src="./images/project logo.png" alt="logo" />
+        <!-- <i class="fa-solid fa-arrow-right"></i> -->
+        <a href="" class="bg-green"
+          ><i class="fa-solid fa-grip"></i> Dashboard
+        </a>
+        <a href=""> <i class="fa-solid fa-folder-open"></i> Projects</a>
+        <a href=""> <i class="fa-solid fa-note-sticky"></i> Invoices </a>
+        <a href=""><i class="fa-solid fa-calendar-days"></i> Calendar</a>
+        <a href=""><i class="fa-solid fa-list-check"></i> ToDo</a>
+        <a href=""><i class="fa-solid fa-hard-drive"></i> Drive</a>
+      </div>
+
+      <div class="right-side">
+        <span>
+          <input
+            type="search"
+            name=""
+            id="search"
+            placeholder="&#xF002; Search"
+            style="font-family: Arial, FontAwesome"
+          />
+        </span>
+        <span>
+          <i class="fa-solid fa-table-cells"></i>
+          <i class="fa-solid fa-envelope" data-count="2"></i>
+        </span>
+        <span class="colorful">
+          <img src="/images/face pic 2.jpg" alt="" />
+        </span>
+      </div>
+    </nav>
+
+    <!-- ======== MAIN PAGE -> Contains all elements in the doc excpet top-nav-bar =========  -->
+    <main id="main-page-container">
+      <!-- ======== SIDE NAV BAR ========= -->
+      <div id="side-nav-bar">
+        <i class="fa-solid fa-bars"></i>
+        <img src="./images/S profile picture image.jpeg" alt="" />
+        <img src="./images/pumpkin profile pic.jpg" alt="" />
+        <i class="fa-solid fa-circle-plus"></i>
+        <i class="fa-solid fa-gear"></i>
+      </div>
+
+      <!-- Start of main content -->
+      <div id="main-page">
+        <div class="header">
+          <h4>Dashboard</h4>
+          <span>
+            <i class="fa-solid fa-circle-question"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </span>
+        </div>
+
+        <!-- ======== GRID CONTAINER -> Contains all elements in the main content ========= -->
+        <div id="grid-container">
+          <!-- ========== PROJECTS =========== -->
+          <section id="projects-section">
+            <div id="head-section">
+              <h1>Your projects</h1>
+              <span>
+                <p>All projects <i class="fa-solid fa-caret-down"></i></p>
+                <p>
+                  <i class="fa-solid fa-angle-left"></i
+                  ><i class="fa-solid fa-angle-right"></i>
+                </p>
+              </span>
+            </div>
+
+            <div id="body-section">
+              <div class="project-1 project">
+                <img src="./images/S profile picture image.jpeg" alt="" />
+                <span class="over-lapping-images">
+                  <img src="./images/face pic 2.jpg" alt="" />
+                  <img src="./images/profile picture.jpg" alt="" />
+                </span>
+                <div class="about-project">
+                  <h3>A million knots project</h3>
+
+                  <p>Branding</p>
+
+                  <p>Desktop</p>
+                </div>
+                <span class="progress-section">
+                  <i class="fa-solid fa-clipboard-check"></i>
+                  <p>1/7</p>
+                  <div class="progress-range"></div>
+                  <p>5%</p>
+                </span>
+              </div>
+
+              <div class="project-2 project">
+                <img src="./images/pumpkin profile pic.jpg" alt="" />
+                <span class="over-lapping-images">
+                  <img src="./images/face pic 2.jpg" alt="" />
+                  <img src="./images/profile picture.jpg" alt="" />
+                </span>
+                <div class="about-project">
+                  <h3>Adventure 1290 Dashboard</h3>
+                  <p>Design System</p>
+                  <p>Desktop</p>
+                </div>
+                <span class="progress-section">
+                  <i class="fa-solid fa-clipboard-check"></i>
+                  <p>3/7</p>
+                  <div class="progress-range"></div>
+                  <p>59%</p>
+                </span>
+              </div>
+
+              <div class="project-3 project">
+                <img src="./images/profile pic.png" alt="" />
+                <span class="over-lapping-images">
+                  <img src="./images/face pic 2.jpg" alt="" />
+                  <img src="./images/face pic 3.jpg" alt="" />
+                </span>
+                <div class="about-project">
+                  <h3>Super project NFT dashboard</h3>
+                  <p>Desktop</p>
+                </div>
+                <span class="progress-section">
+                  <i class="fa-solid fa-clipboard-check"></i>
+                  <p>6/7</p>
+                  <div class="progress-range"></div>
+                  <p>89%</p>
+                </span>
+              </div>
+            </div>
+          </section>
+
+          <!-- ========== FREELANCE HEALTH SECTION =========== -->
+          <section id="freelance-health-section">
+            <div>
+              <div id="head-section">
+                <h1>Freelance health status</h1>
+              </div>
+
+              <!-- ========= SEMI CIRCLES ========= -->
+              <div id="percentage-circles">
+                <div class="circle-1 bigger-circle">
+                  <p>
+                    60% <br />
+                    <span>Profitability</span>
+                  </p>
+                </div>
+
+                <div class="circle-2 bigger-circle">
+                  <p>
+                    25% <br />
+                    <span>Completed tasks</span>
+                  </p>
+                </div>
+              </div>
+
+              <!-- ======= STRT LINE ======== -->
+              <div id="percentage-linear">
+                <div class="perc">
+                  <div class="big-line line-1"></div>
+                  <p>60% Profitability</p>
+                </div>
+
+                <div>
+                  <div class="big-line line-2"></div>
+                  <p>25% Completed tasks</p>
+                </div>
+              </div>
+              <!-- PAID UNPAID UN....... COMPLETED -->
+              <div class="description des1">
+                <div class="t-des">
+                  <span></span>
+                  <p>paid</p>
+                </div>
+
+                <div class="t-des">
+                  <span></span>
+                  <p>unpaid</p>
+                </div>
+              </div>
+
+              <div class="description des2">
+                <div class="t-des">
+                  <span></span>
+                  <p>Completed</p>
+                </div>
+
+                <div class="t-des">
+                  <span></span>
+                  <p>Unfinished</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ========== BUDGET OVERVIEW ========== -->
+            <div id="budget">
+              <div id="head-section">
+                <h1>Budget overview</h1>
+              </div>
+
+              <div id="overview">
+                <div class="white">
+                  <p><i class="fa-solid fa-calendar purple"></i> Summary</p>
+                </div>
+                <div>
+                  <p>
+                    <i class="fa-solid fa-arrows-turn-to-dots"></i> Last
+                    Transactions
+                  </p>
+                </div>
+
+                <div>
+                  <p>
+                    <i class="fa-solid fa-align-left"></i>
+                    Invoices
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--============ DAILY ACTIVITY =========== -->
+          <section id="daily-activity">
+            <div id="head-section">
+              <h1>
+                Daily Activity <i class="fa-solid fa-angle-left"></i>
+                <i class="fa-solid fa-angle-right"></i>
+              </h1>
+
+              <span class="right">
+                <div>
+                  <i class="fa-solid fa-table-cells-large bg-purple"></i>
+                  <i class="fa-solid fa-list-check"></i>
+                </div>
+
+                <div>
+                  <i class="fa-solid fa-align-left"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <p>Filter</p>
+                </div>
+              </span>
+            </div>
+
+            <!-- ========= CHART SECTION in daily activity ========== -->
+            <div id="chart-section">
+              <div class="time-checker">
+                <i class="fa-solid fa-caret-down"></i>
+                <div class="line"></div>
+              </div>
+              <div class="chart-row time">
+                <p>9:00</p>
+                <p>10:00</p>
+                <p>11:00</p>
+                <p>12:00</p>
+                <p>13:00</p>
+                <p>14:00</p>
+                <p>15:00</p>
+                <p>16:00</p>
+                <p>17:00</p>
+                <p>18:00</p>
+              </div>
+
+              <div class="chart-row chart-body">
+                <p class="vertical">MEETS</p>
+
+                <div class="activity activity-1">
+                  <span class="over-lapping-images2">
+                    <img src="./images/face pic 2.jpg" alt="" />
+                    <img src="./images/profile picture.jpg" alt="" />
+
+                    <span class="activity-info">
+                      <p>
+                        Project overview<br />
+                        <span class="time-taken">9:30 - 11:00</span>
+                      </p>
+                    </span>
+                  </span>
+                </div>
+              </div>
+
+              <div class="chart-row chart-body">
+                <p class="vertical">UX</p>
+
+                <div class="activity activity-2">
+                  <span class="over-lapping-images2">
+                    <img src="./images/face pic 2.jpg" alt="" />
+                    <img src="./images/profile picture.jpg" alt="" />
+
+                    <span class="activity-info">
+                      <p>
+                        Project overview<br />
+                        <span class="time-taken">11:00- 14:00</span>
+                      </p>
+                    </span>
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                  </span>
+                </div>
+              </div>
+
+              <div class="chart-row chart-body">
+                <p class="vertical">UI</p>
+              </div>
+
+              <div class="chart-row chart-body">
+                <p class="vertical">BIZ</p>
+                <div class="activity activity-3">
+                  <span class="over-lapping-images2">
+                    <img src="./images/face pic 2.jpg" alt="" />
+                    <img src="./images/face pic 3.jpg" alt="" />
+
+                    <span class="activity-info">
+                      <p>
+                        Project overview<br />
+                        <span class="time-taken">14:00 - 16:30</span>
+                      </p>
+                    </span>
+                  </span>
+                </div>
+              </div>
+
+              <div class="chart-row chart-body">
+                <p class="vertical">FOCUS</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- ======= TOTAL INCOME ======== -->
+          <section id="total-income">
+            <div id="head-section">
+              <h1>Total Income</h1>
+              <span
+                ><p>This month <i class="fa-solid fa-caret-down"></i></p>
+              </span>
+            </div>
+
+            <div class="income">
+              <span class="abt-money white">
+                <p class="right3">
+                  <span class="green">
+                    <i class="fa-solid fa-caret-up"></i> +20%
+                  </span>
+                  this month
+                </p>
+
+                <img
+                  src="./images/png-transparent-handshake-graphic-design-graphy-design-blue-angle-text-removebg-preview.png"
+                  class="handshake"
+                  alt=""
+                />
+
+                <p class="money">
+                  $2400.90 USD <br />
+                  <span class="desc">Paid Invoices</span>
+                </p>
+              </span>
+
+              <span class="abt-money purple2">
+                <p class="right3">
+                  <span class="red"
+                    ><i class="fa-solid fa-caret-down"></i> -20%
+                  </span>
+                  this month
+                </p>
+                <img src="./images/unpaid inv.png" class="c-card" alt="" />
+                <p class="money">
+                  $947.00 USD <br />
+                  <span class="desc">Unpaid Invoices</span>
+                </p>
+              </span>
+            </div>
+
+            <!-- CHART SECTION 2 in monthly income -->
+            <div class="chart-section-2">
+              <div class="money-made">
+                <ul class="values">
+                  <li>8k</li>
+                  <li>6k</li>
+                  <li>4k</li>
+                  <li>2k</li>
+                  <li>0</li>
+                </ul>
+              </div>
+
+              <div class="monthly-bars">
+                <div class="avg">
+                  <div class="avg-money">
+                    <p class="val">
+                      $4500 USD <br />
+                      <span class="desc-4">average</span>
+                    </p>
+                    <span class="pointer"></span>
+                  </div>
+
+                  <div class="dotted-line"></div>
+                </div>
+                <div class="bars">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                </div>
+
+                <div class="months">
+                  <p>Jan</p>
+                  <p>fab</p>
+                  <p>mar</p>
+                  <p>apr</p>
+                  <p>may</p>
+                  <p>Jun</p>
+                  <p>jul</p>
+                  <p>aug</p>
+                  <p>sept</p>
+                  <p>oct</p>
+                  <p>nov</p>
+                  <p>dec</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
