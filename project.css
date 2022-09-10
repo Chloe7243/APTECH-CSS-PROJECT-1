@@ -243,11 +243,11 @@ section {
   overflow: hidden;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 901px) {
   #grid-container {
     display: grid;
     gap: 2rem;
-    grid-template-columns: 58% 40%;
+    grid-template-columns: 55% 43%;
   }
 }
 
