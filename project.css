@@ -751,8 +751,6 @@ h1 ~ i {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background: #000;
-  flex: 1 0 100%;
 }
 
 .activity-2 {
