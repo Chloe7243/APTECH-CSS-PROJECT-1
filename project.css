@@ -241,6 +241,7 @@ section {
   padding: 3em 2.5em;
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 
 @media screen and (min-width: 901px) {
@@ -671,11 +672,11 @@ h1 ~ i {
 }
 
 .right .fa-magnifying-glass {
-  font-size: 0.2em;
+  font-size: 0.7em;
   background: var(--white);
   position: absolute;
-  top: 5.5em;
-  left: 5em;
+  top:1.2em;
+  left: 1.25em;
 }
 
 .bg-purple {
@@ -695,7 +696,7 @@ h1 ~ i {
 .time-checker {
   position: absolute;
   top: 1.5em;
-  left: 39%;
+  left: 37%;
   z-index: 3;
   height: 100%;
 }
@@ -720,6 +721,8 @@ h1 ~ i {
   align-items: center;
   position: relative;
   width: 100%;
+  flex: 1 1 100%;
+
 }
 
 .vertical {
@@ -734,28 +737,34 @@ h1 ~ i {
   padding: 0 0 1em 5em;
 }
 
+.time > p{
+  flex: 1 1 100%;
+}
+
 .activity {
   background: var(--primary-purple);
   height: 80%;
-  width: 18em;
+  width: 22%;
   border-radius: 7em;
   position: absolute;
-  left: 4rem;
+  left: 5.5%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  background: #000;
+  flex: 1 0 100%;
 }
 
 .activity-2 {
   background: var(--primary-pink);
-  width: 22em;
-  transform: translate(17rem);
+  width: 32.5%;
+  left: 26%;
 }
 
 .activity-3 {
   background: var(--primary-blue);
-  width: 19em;
-  transform: translate(39rem);
+  width: 25%;
+  left: 58%;
 }
 
 .over-lapping-images2 {
