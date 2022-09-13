@@ -219,6 +219,9 @@ section {
     width: 2.2em;
   }
 }
+#side-nav-bar i {
+  margin: 0;
+}
 
 #side-nav-bar i,
 #side-nav-bar img {
@@ -685,7 +688,7 @@ h1 ~ i {
   color: var(--white);
 }
 
-/* ========= CHART SECTION ========== */
+/* ========= CHART SECTION for daily activity ========== */
 #chart-section {
   position: relative;
   min-width: 100%;
@@ -869,7 +872,7 @@ h1 ~ i {
   font-size: 0.5em;
 }
 
-/* ============= CHART SECTION 2 =============== */
+/* ============= CHART SECTION 2 for total income =============== */
 .chart-section-2 {
   width: 100%;
   margin-top: 5em;
